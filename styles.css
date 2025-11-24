@@ -1,0 +1,27 @@
+/* HTML에 존재하는 모든 div 선택*/
+div {
+  background-color:rgba(6, 82, 221,0.2);
+}
+
+ h3 {
+        font-size: 30fx;
+        color: purple;
+      }
+
+span {
+  color: green;
+}      
+
+/*html에서 id값이 box인 요소 한개 선택 */
+#box {
+  background-color: rgb(195, 195, 228);
+}
+/*html에서 class값이 list인 모든 요소 선택 */
+.list {
+  list-style: none;
+}
+
+#box ul {
+  padding: 0;
+}
+  
