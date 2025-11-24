@@ -6,6 +6,82 @@
     <title>hymalay의 홈페이지</title>
   </head>
   <body>
-    안녕하세요 hello world
+    안녕하세요
+    <form>
+      <h3>로그인</h3>
+      <span>ID</span>      
+      <input type="id" name="username" placeholder="아이디를 입력해주세요">
+      <br>
+      <span>Password</span>
+      <input type="password" name="userpassword" placeholder="패스워드를 입력해주세요"
+      required           
+      />
+      <input type="submit" value="로그인">
+
+       <!-- 사용자 텍스트 입력 요소 -->
+    </form>
+    <form>
+      <h3>성별</h3>
+      <input id="male" type="radio" name="gender" value="male" checked />
+      <label for="male">남성</label>
+      <input id="female" type="radio" name="gender" value="female" />      
+      <label for="female">여성</label>
+      <input type="radio" name="gender" value="mf">중성
+     
+      <h3>관심사</h3>
+      <input id="travel" type="checkbox" name="interest" value="travel" checked />
+      <label for="travel">여행</label>
+      <input id="tech" type="checkbox" name="interest" value="tech">기술
+      <input id="money" type="checkbox" name="interest" value="travel">재테크
+    </form>
+    <p>지금은 HTML 시간입니다.</p>
+    <p>지금은 HTML 시간입니다.</p>
+    <!-- 박스태그 -->
+    <div>
+      <a href="https://www.naver.com/" target="_blank"> 지금은 네이버 </a>
+      <!-- 미션 : 구글로 페이지 이동하는 버튼 만들어서 구현해보세요-->
+      <a href="https://www.google.com/" target="_blank"> 지금은 구글 </a>      
+    </div>
+    <h1>h1 제목입니다</h1>
+    <h2>h2 제목입니다</h2>
+    <h3>h3 제목입니다</h3>
+    <h4>h4 제목입니다</h4>
+    <h5>h5 제목입니다</h5>
+    <h6>h6 제목입니다</h6>
+    <hr />
+    <p>
+     Lorem ipsum, <span style="color:red">dolor</span> sit amet consectetur adipisicing elit. 
+     Numquam deserunt soluta quibusdam voluptatem quaerat ipsam a 
+     amet sint expedita suscipit deleniti iusto reprehenderit voluptates
+      maiores quis vel facere esse illum, aliquam doloribus
+      quia velit itaque?<strong> Ipsam, harum, repudiandae sed nemo/strong> numquam neque blanditiis dolorum dolore fuga dolores? Vitae labore sit, blanditiis similique magni porro cum recusandae minus neque voluptatem illo. Dignissimos dolor illum voluptatem repellendus amet nemo consequuntur. Error tenetur voluptate excepturi nam, veritatis saepe recusandae quisquam blanditiis sunt, est illo! Autem repellat praesentium, aspernatur, quo omnis necessitatibus voluptate aperiam beatae sequi, 
+      architecto fugit harum? Aliquam aut consequuntur quaerat nihil!
+
+    </p>
+  </div>
+  <!--이미지 태그 -->  
+  <div>
+    <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/E40E/production/_106528385_gettyimages-1097714302.jpg"
+    alt="bts 이미지"
+    width=500>
+  </div>
+  <!-- 리스트 태그 -->
+   <div>
+    <h3>웹기술의 3요소</h3>
+    <ol>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ol>
+    <h3>내가 좋아하는 가수</h3>
+    <ul>
+      <li>아이유</li>
+      <li>BTS</li>
+      <li>콜드플레이</li>
+
+    </ul>
+   </div>
+
+
   </body>
 </html>
